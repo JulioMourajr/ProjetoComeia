@@ -1,0 +1,98 @@
+body{
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  height: 1170px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo{
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-left: 149px;
+}
+
+.cabecalho{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#FBFB06 ;
+  max-width: 350px;
+  max-height: 50px;
+  margin-top: 6rem;
+  margin-right: 149px;
+}
+
+a{
+  margin: 1.2rem;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.cabecalho li:hover{
+  background-color: #F50F0F;
+  color: #FBFB06;
+  cursor: pointer;
+}
+
+.tituloSecao{
+  background-color: #FBFB06;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 149px;
+  margin-right: 149px;
+  margin-top: 50px;
+  margin-bottom: 2.5rem;
+}
+.tituloSecao h2{
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.texto{
+  max-width: 500px;
+  font-size: 1.25rem;
+  text-align: justify;
+  margin-left: 4rem;
+}
+
+.fotoSecao{
+  border-radius: 25px;
+  margin-right: 2.5rem;
+}
+ 
+
+.google-maps iframe {
+  max-width: 358px;
+  height: 215px;
+  border: 0;
+  border-radius: 25px;
+  margin-right: 2.5rem;
+}
+
+#insta{
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: -5px;
+  
+}
+
+footer h4{
+  text-align: center;
+  background-color:#FBFB06 ;
+  padding: 1.5rem;
+  align-content:end;
+}
+
+footer{
+  bottom: 0;
+  max-width: 100%;
+  text-align: center;
+  height: 0px;
+}

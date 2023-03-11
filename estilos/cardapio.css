@@ -1,0 +1,65 @@
+.cardapioTitulo{
+  background-color: #FBFB06;
+  max-width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.gridSection{
+  display: grid;
+  max-width: 100%;
+  height: 400px;
+  grid-template-columns: 350px 350px 350px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.fotoCard{
+  width: 185px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.textoCard{
+  font-size: 1rem;
+  height: 60px;
+  margin-top: 2rem;
+  max-width: 200px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.botaoComprar{
+  padding: 0.5rem 1rem;
+  background-color: #F50F0F;
+  color: #FBFB06;
+  border-radius: 25px;
+}
+
+.botaoComprar:hover {
+  padding: 0.5rem 1rem;
+  background-color: #FBFB06;
+  color: #F50F0F;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#footerCardapio{
+  max-width: 100%;
+}

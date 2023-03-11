@@ -1,0 +1,254 @@
+/*Abaixo de 1280px */
+
+@media (max-width: 1280px) {
+  .tituloSecao{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+  }
+}
+
+/*Abaixo de 1070px */
+
+@media (max-width: 1070px) {
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #logo{
+    width: 150px;
+    height: 150px;
+  }
+  
+  .cabecalho{
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .tituloSecao{
+    margin-bottom: 2.5rem;
+  }
+
+  .texto{
+    max-width: 300px;
+    margin-left: 2rem;
+  }
+  
+  .fotoSecao{
+    margin-right: 1.5rem;
+  }
+  
+  /*Contato*/
+
+  .gridSection{
+    width: 1070px;
+    grid-template-columns: 250px 250px 250px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #footerCardapio{
+    bottom: 0;
+    max-width: 1070px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*Abaixo de 840px */
+
+@media (max-width: 840px) {
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  #logo{
+    border-radius: 50%;   
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
+  
+  .cabecalho{
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .tituloSecao{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .texto{
+    max-width: 250px;
+    font-size: 0.75rem;
+    margin-left: 1.5rem;
+  }
+  
+  .fotoSecao{
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 0 auto;
+  } 
+
+  .google-maps iframe {
+    width: 300px;
+    height: 200px;
+    border: 0;
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+
+   /*Contato*/
+
+   .gridSection{
+    width: 840px;
+    grid-template-columns: 200px 200px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .fotoCard{
+    width: 150px;
+    height: 100px;
+  }
+
+  .textoCard{
+    font-size: 0.75rem;
+    height: 40px;
+    margin-top: 1rem;
+    max-width: 200px;
+  }
+  #footerCardapio{
+    bottom: 0;
+    max-width: 1070px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*Abaixo de 600px */
+
+@media (max-width: 600px){
+
+  /*Contato*/
+
+  .gridSection{
+    width: 600px;
+    grid-template-columns: 150px 150px 150px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+
+  .fotoCard{
+    width: 100px;
+    height: 75px;
+  }
+
+  .textoCard{
+    font-size: 0.50rem;
+    height: 30px;
+    margin-top: 1rem;
+    max-width: 200px;
+  }
+  #footerCardapio{
+    margin-top: 1.5rem;
+    bottom: 0;
+    max-width: 1070px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer h4{
+    text-align: center;
+    background-color:#FBFB06 ;
+  }
+  
+  footer{
+    bottom: 0;
+    width: 600px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px){
+  main{
+    width: 500px;
+  }
+
+  .gridSection{
+    display: flex;
+    width: 500px;
+    grid-template-columns: 100px 100px 100px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-left: 5rem;
+  }
+
+  .fotoCard{
+    width: 100px;
+    height: 75px;
+  }
+
+  .textoCard{
+    font-size: 0.50rem;
+    height: 30px;
+    margin-top: 1rem;
+    max-width: 200px;
+  }
+  .cardapioTitulo{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    font-size: 0.75rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer h4{
+    text-align: center;
+    background-color:#FBFB06 ;
+  }
+  
+  footer{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    max-width: 500px;
+    height: 20px;
+    align-items: center;
+  }
+
+}

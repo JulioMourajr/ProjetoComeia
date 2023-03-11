@@ -1,0 +1,86 @@
+#tituloContato {
+  text-align: center;
+  height: auto;
+}
+
+#formulario {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#formulario input {
+  width: 500px;
+  height: 60px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 25px;
+  background-color: #FBFB06;
+}
+
+form #mensagem {
+  height: 150px;
+}
+
+#formBotao {
+  background-color: #FBFB06;
+  color: #F50F0F;
+}
+
+#formBotao:hover {
+  color: #FBFB06;
+  background-color: #F50F0F;
+  cursor: pointer;
+}
+
+#textoContato {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  color: #F50F0F;
+}
+
+#mapaContato iframe {
+  width: 800px;
+  margin-top: 2rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media (max-width: 840px) {
+
+  header {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  #logo{
+    border-radius: 50%;   
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
+  
+  .cabecalho{
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  #formulario input {
+    max-width: 300px;
+    height: 60px;
+  }
+
+  #mapaContato iframe {
+    max-width: 500px;
+    margin-top: 1rem;
+  }
+}
