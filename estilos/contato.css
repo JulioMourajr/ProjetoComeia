@@ -53,6 +53,10 @@ form #mensagem {
   display: flex;
 }
 
+.invalido {
+  border: 2px solid red;
+}
+
 @media (max-width: 840px) {
 
   header {

@@ -22,11 +22,13 @@
     <main>
       <h2 id="tituloContato">Contato</h2>
 
-      <form id="formulario">
-        <input id="nome" type="text"  placeholder="Nome" required>
+      <form onsubmit="event.preventDefault()" id="formulario">
+        <input id="nome" type="text"  placeholder="Nome" required minlength="2">
         <input id="email" type="email"  placeholder="E-mail" required>
+        <label for="input-tel"></label>
+        <input type="tel" id="celular" placeholder="Celular (99) 99999-9999" required pattern="^\(\d{2}\) \d{5}-\d{4}$" maxlength="15">
         <input id="mensagem" type="text"  placeholder="Mensagem" required>
-        <input id="formBotao" type="submit" value="Enviar">
+        <input id="formBotao" type="submit" value="Enviar" onclick="enviarFormulario()">
       </form>
 
       <p id="textoContato">Venha comer conosco. <br> Funcionamos das 11 ás 14:00 de Segunda a Sábado!</p>
@@ -39,5 +41,6 @@
     <footer>
       <h4>Desenvolvido por Julio Moura © Alguns Direitos Reservados.</h3>
     </footer>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
